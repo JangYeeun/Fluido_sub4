@@ -1,0 +1,339 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{ text-decoration: none; color: inherit;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:14px;
+    line-height:24px ;
+    color: #000;
+    min-width:1350px;
+}
+/*header*/
+
+#head{
+    height: 157px;
+    background-color: #34bec1;
+
+}
+#head_inner{
+    width: 1320px;
+    margin: auto;
+}
+
+.hleft{
+    float: left;
+    padding-top:69px;
+}
+
+.hright{
+    float: right;
+    color: white;
+}
+
+.hright>li{
+    float: left;
+    padding-top:100px;
+   
+    padding-right:120px;
+       color: white;
+}
+.main_banner{
+    margin: auto;
+}
+
+#best_product{
+    height: 744px;
+}
+.best_product_inner{
+    width: 1320px;
+    margin: auto;
+}
+
+.blue_title
+{   
+    text-align: center;
+   color:#34bec1;
+   padding-left: 60px;
+   padding-top:103px;
+   
+}
+
+.best_product_inner>ul{
+    float: left;
+    padding-top:68px;
+    padding-left: 70px;
+}
+
+#sub_banner{
+     background: url(images/ocean.jpg) no-repeat fixed;
+     height: 400px;
+}
+
+.white_p{
+    text-align: center;
+    color: white;
+    padding-top:180px;
+}
+
+#box{
+    height: 940px;
+}
+.box_inner{
+    padding-top:200px;
+    width: 1320px;
+    margin: auto;
+}
+
+
+
+
+.btn_box33{
+    clear: both;
+    float: right;
+    padding-top: 31px;
+}
+.btn{
+    color: white;
+    text-align: center;
+    background-color: #34bec1;
+    width:101px;
+    height:25px;
+    border-radius: 12.5px;
+    display: block;
+}
+
+
+
+.box2{
+    margin: auto;
+    width: 1320px;
+    height: 773px;
+    
+}
+.event{
+    float: left;
+    height: 410px;
+}
+
+.review{
+    float: right;
+    height: 410px;
+    width: 590px;
+    padding-left:42px ;
+}
+
+h3{
+    color: #34bec1;
+    padding-bottom: 17px;
+}
+
+.btn2{
+    color: white;
+    text-align: center;
+    background-color: #34bec1;
+    width:101px;
+    height:25px;
+    border-radius: 12.5px;
+    display: block;
+
+}
+.btn2_box{
+    padding-top: 50px;
+    clear: both;
+    float: right;
+}
+
+.re1{
+    border-top: 2px solid #34bec1;
+    border-bottom: 1px solid #34bec1;
+    padding: 15px 0 ;
+}
+.re2{
+    border-bottom: 1px solid #34bec1;
+    padding: 15px 0 ;
+}
+.re3{
+    border-bottom: 1px solid #34bec1;
+    padding: 15px 0 ;
+}
+
+.qanda{
+    height: 1217px;
+}
+
+.qanda_inner{
+    margin: auto;
+    width: 1320px;
+    
+}
+
+table{
+    width: 1190px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.qa{
+    text-align: center;
+
+}
+
+
+
+
+td{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+th{
+    padding-bottom: 15px;
+    padding-top:15px;
+
+    border-top: solid #444444 1px;
+    border-bottom: solid #c4c6c7 1px;
+}
+
+
+/*커뮤니티페이지*/
+
+.box{
+    height: 862px;
+}
+
+.box_inner{
+    margin: auto;
+    width: 1320px;
+}
+
+.leftbox1{
+    float: left;
+}
+
+.rightbox2{
+    float: right;
+}
+
+.firsttext{
+    padding-top: 31px;
+    padding-bottom: 24px;
+    border-bottom:solid #444444 1px;
+}
+
+.blackgreytext{
+    padding-top:13px;
+    padding-bottom:13px;
+    color: #857676;
+    float: left;
+    border-bottom: solid #cdcdcd 1px;
+    
+}
+
+.bestpr{
+    height: 749px;
+}
+
+.bestpr_inner{
+    margin: auto;
+    width: 1320px;
+}
+
+.bestprh3{
+    color: #34bec1;
+    padding-bottom: 70px;
+}
+
+
+.bestpr_inner>ul{
+    float: left;
+    width: 25%;
+}
+
+.btn_box44{
+    float: right;
+    padding-top: 50px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+
+.qatext{
+    float: left;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.bgrey_text{
+    color: #554a4a;
+}
+
+.wgrey_text{
+    color: #8d8585;
+}
+
+.pages{
+    height: 165px;
+}
+.pages_inner{
+    margin: auto;
+    width: 1320px;
+    text-align: center;
+    
+}
+.pages_inner>ul
+{display: inline-block;
+
+}
+.pages_inner>ul>li{
+    float: left;
+    padding-left: 22px;
+    color: #625b5b;
+    
+}
+
+/*footer*/
+
+#footer{
+    background-color:#34bec1 ;
+    height: 230px;
+    color: white;
+    
+}
+
+.footer_inner{
+    margin: auto;
+    width: 1320px;
+   text-align: center;  
+}
+.text_left{
+    padding-top: 50px;
+    float: left;
+    text-align: left;
+}
+
+.img_right{
+    padding-top: 138px;
+    float: right;
+    padding-right: 145px;
+    padding-bottom: 20px;
+}
+
+.whitefoot{
+    color: white;
+    font-size: 18px;
+}
+
+.f1{
+
+}
+
+.f2{
+padding-left: 20px;
+padding-bottom: 2px;
+}
+.f3{
+padding-left: 20px;
+}
+
+
+
